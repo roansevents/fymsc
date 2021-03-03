@@ -38,7 +38,7 @@ body {
   th,
   td {
 
-    border: 1px solid rgb(51, 245, 164);
+    border: 1px solid rgb(249, 250, 250);
     color: rgb(253, 253, 253);
     font-size: 20px;
     position: relative;
@@ -57,7 +57,11 @@ body {
     padding: 15px;
 
   }
-
+  .title{color: #fff;
+    margin: 5px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
   h1, h3{
     /* text-decoration: underline; */
     color: rgb(244, 245, 244);
