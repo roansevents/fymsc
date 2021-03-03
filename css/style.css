@@ -8,24 +8,8 @@ body {
   }
 
   .main {
-    background: url(../bg.jpg) no-repeat center center/cover;
-    position: relative;
-    z-index: 1;
-    min-height: 100vh;
+    background-color: rgb(215, 219, 219);
 
-  }
-
-  .main::before {
-    content: "";
-    background-color: #000000;
-    position: absolute;
-    box-sizing: border-box;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0.8;
-    z-index: -1;
   }
 
   .row {
@@ -38,8 +22,8 @@ body {
   th,
   td {
 
-    border: 1px solid rgb(249, 250, 250);
-    color: rgb(253, 253, 253);
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
     font-size: 20px;
     position: relative;
     z-index: 99;
@@ -57,14 +41,14 @@ body {
     padding: 15px;
 
   }
-  .title{color: #fff;
+  .title{color: rgb(0, 0, 0);
     margin: 10px 5px 5px;
     font-weight: 100;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
   h1, h3{
     /* text-decoration: underline; */
-    color: rgb(244, 245, 244);
+    color: rgb(0, 0, 0);
     padding: 0;
     margin: 10px;
     font-family: Arial, Helvetica, sans-serif;
